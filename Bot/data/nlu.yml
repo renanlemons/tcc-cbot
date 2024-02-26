@@ -1,0 +1,520 @@
+version: "3.1"
+
+nlu:
+
+  - intent: greet
+    examples: |
+      - ei
+      - olá
+      - oi
+      - ola
+      - bom dia
+      - boa noite
+      - mais
+      - ei
+      - vamos
+      - ei cara
+      - bom dia
+      - boa noite
+      - boa tarde
+
+  - intent: goodbye
+    examples: |
+      - te vejo mais tarde
+      - boa noite
+      - tchau
+      - adeus
+      - tenha um bom dia
+      - Vejo você por aí
+      - Bye Bye
+      - até mais
+
+  - intent: affirm
+    examples: |
+      - sim
+      - de fato
+      - claro
+      - Isso soa bem
+      - correto
+
+  - intent: deny
+    examples: |
+      - não
+      - nunca
+      - Eu não acho
+      - não gosto disso
+      - sem chance
+      - na verdadey
+
+  - intent: mood_great
+    examples: |
+      - perfeito
+      - ótimo
+      - incrível
+      - me sentindo um rei
+      - maravilhoso
+      - Estou me sentindo muito bem
+      - Estou estou ótimo
+      - Eu sou incrível
+      - Eu vou salvar o mundo
+      - super feliz
+      - extremamente bom
+      - tão bom
+      - perfeito
+
+  - intent: mood_unhappy
+    examples: |
+      - meu dia foi horrível
+      - Estou triste
+      - Não me sinto muito bem
+      - Estou desapontado
+      - super triste
+      - Eu estou tão triste
+      - triste
+      - muito triste
+      - infeliz
+      - não é bom
+      - não muito bom
+      - extremamente triste
+      - tão triste
+
+  - intent: O_que_é_C?
+    examples: |
+      - me fale o que é C
+      - O que é a linguagem C?
+      - Qual é a definição de linguagem C?
+      - Poderia explicar o conceito por trás da linguagem C?
+      - O que caracteriza a linguagem C?
+
+  - intent: Por_que_aprender_C?
+    examples: |
+      - Por que aprender C?
+      - Quais os motivos de usar C?
+      - pq usar C?
+      - pra que aprender C?
+
+  - intent: Diferença_entre_C_e_C_++
+    examples: |
+      - Quais as diferenças entre o C e o C++?
+      - Por que existe C e o C++?
+      - C++ é diferente?
+
+  - intent: Tipos_numéricos
+    examples: |
+      - Quais tipos numéricos?
+      - Na linguagem c quais os tipos numéricos existentes?
+      - o que significa tipos númericos?
+
+  - intent: Defina_precisão_decimal
+    examples: |
+      - Como é a precisão decimal em C?
+      - Como funciona a precisão decimal em C?
+      - Como limitar a precisão decimal?
+
+  - intent: Alterar_valores_variáveis
+    examples: | 
+      - Como alterar o conteudo de uma varivável?
+      - Como alterar o valor de uma variável?
+      - como mudar o valor das variaveis?
+
+  - intent: Adicione_variáveis_juntas
+    examples: | 
+      - Como declaro mais de uma variável ao mesmo tempo?
+      - Tem como declarar multiplas variáveis junto?
+
+  - intent: Declarando_(criando)_variáveis
+    examples: | 
+      - Como faço pra criar uma variável?
+      - Declaração de variáveis
+
+  - intent: Variáveis_de_saída
+    examples: | 
+      - Como visualizar a variável? 
+      - Como printar a variável?
+
+  - intent: O_tipo_de_char
+    examples: | 
+      - Como funciona o tipo char?
+      - Fale sobre o tipo char
+
+  - intent: Notas_sobre_personagens
+    examples: |
+      - Dicas sobre o char
+      - impressão de char
+      - como imprimir um char
+
+  - intent: Declarar_várias_variáveis
+    examples: | 
+      - Declaração multipla de variáveis
+      - Como declarar várias variáveis
+      - declarar muitas variaveis
+
+  - intent: Especificadores_de_formato
+    examples: | 
+      - O que é um especificador de formato?
+      - pra que serve especificadores de formato?
+      - fale sobre especificador de formato
+
+  - intent: Tipos_de_dados
+    examples: | 
+      - Quais os tipos de dados em C?
+      - Como funciona os tipos de dados?
+
+  - intent: Tipos_de_dados_básicos
+    examples: | 
+      - Quais são os tipos de dados básicos em C?
+      - Tem dados básicos em C?
+
+  - intent: Especificadores_de_formato_básico
+    examples: | 
+      - Quais especificadores de formato básicos?
+      - Especificores básicos?
+
+  - intent: C_nomes_de_variáveis
+    examples: | 
+      - Como é nomenclatura de variáveis?
+      - O que é o nome de uma variável?
+      - tem alguma restrição na nomenclatura de uma variavel?
+      - posso escolher qualquer nome para uma variavel?
+
+  - intent: Obtenha_o_tamanho_da_memória
+    examples: | 
+      - Qual o tamanho de memória de um dado?
+      - Quanto de memória é ocupado por um dado?
+      - Um dado ocupa quanto de memoria?
+
+  - intent: Constantes
+    examples: | 
+      - O que são constantes em C?
+      - Como funciona uma constante em C?
+      - Como declarar um valor fixo em C?
+
+  - intent: Notas_sobre_constantes
+    examples: | 
+      - exemplo de declaração de constante
+      - como declarar constantes
+
+  - intent: Boa_prática
+    examples: | 
+      - Boa pratica na declaração de constantes
+      - Como declarar constantes de forma adequada?
+
+  - intent: Condições_e_declarações_se
+    examples: | 
+      - Quais são as opções de condição em C?
+      - Como usar condição em C?
+      - condições lógicas em c
+      - como são as condições logicas em c
+
+  - intent: A_declaração_if
+    examples: | 
+      - Como funciona o if?
+      - Em c para que serve o if?
+      - me fale sobre if
+
+  - intent: A_declaração_else
+    examples: | 
+      - Como funciona o else?
+      - Em c para que serve o else?
+      - me fale sobre else
+
+  - intent: O_else_if_declaração
+    examples: | 
+      - Como funciona o else if?
+      - Em c para que serve o else if?
+      - me fale sobre else if
+
+  - intent: Declaração_de_interruptor
+    examples: | 
+      - Como funciona o switch?
+      - Em c para que serve o switch?
+      - me fale sobre switch
+
+  - intent: A_palavra_-chave_quebrada
+    examples: | 
+      - Como encerrar o switch?
+      - para que serve o break do switch?
+      - me fale o break do switch
+
+  - intent: A_palavra_-chave_padrão
+    examples: | 
+      - O que é o default do switch?
+      - para que serve o default do switch?
+      - me fale sobre o default do switch
+
+  - intent: rotações
+    examples: | 
+      - O que são loops?
+      - Por que usar loops?
+      - me fale sobre loops
+
+  - intent: Enquanto_loop
+    examples: | 
+      - pra que serve o while?
+      - while funciona de que forma?
+      - me fale sobre o while
+
+  - intent: O_loop_do_Do/While
+    examples: | 
+      - pra que serve o do while?
+      - o do while funciona de que forma?
+      - me fale sobre o do while
+
+  - intent: Para_loop
+    examples: | 
+      - pra que serve o for?
+      - for funciona de que forma?
+      - me fale sobre o for
+
+  - intent: Loops_aninhados
+    examples: | 
+      - usar um for dentro do outro?
+      - Como funciona um for dentro de outro for?
+      - me fale sobre loops dentro de loops
+
+  - intent: Quebrar
+    examples: | 
+      - Break pode ser usado em loops?
+      - Como encerrar um loop?
+      - me fale sobre o break
+
+  - intent: Continuar
+    examples: | 
+      - Pra que serve o continue em um loop?
+      - Qual a tarefa do continue dentro de um loop?
+      - me fale sobre o continue
+
+  - intent: Quebre_e_continue_enquanto_loop
+    examples: | 
+      - Como utilizar break dentro do while?
+      - Como utilizar continue dentro do while?
+      - me fale sobre o break dentro do do while
+
+  - intent: Cordas
+    examples: | 
+      - Como funciona string em C?
+      - Strings em C?
+      - me fale sobre strings
+
+  - intent: Strings_de_acesso
+    examples: | 
+      - Conteudo de uma string?
+      - Como acesso um dados especifico de uma string?
+      - me fale sobre o acesso aos elementos de uma string
+
+  - intent: Modificar_strings
+    examples: | 
+      - Como editar uma string?
+      - alterar uma string
+      - me fale sobre modificação de string
+
+  - intent: Loop_através_de_uma_corda
+    examples: | 
+      - Como percorrer uma string?
+      - como percorrer os caracteres de uma string?
+      - me fale sobre como percorrer uma string
+
+  - intent: Outra_maneira_de_criar_cordas
+    examples: | 
+      - Posso criar string caracter por caracter?
+      - como preencher uma string caracter a caracter
+      - é possível adicionar caracter por caracter em uma string?
+
+  - intent: Exemplo_da_vida_real
+    examples: | 
+      - exemplo de uso de uma string na vida real
+      - pra que usar uma string
+      - me fale um exemplo de string na vida real
+      - exemplo prático de string
+
+  - intent: Obtenha_tamanho_ou_comprimento_da_matriz
+    examples: | 
+      - Como pego o tamanho de uma matriz?
+      - tamanho da matriz
+
+  - intent: Fazendo_melhores_loops
+    examples: | 
+      - Como melhorar um loop?
+      - otimizar um loop 
+
+  - intent: Entrada_do_usuário
+    examples: | 
+      - como colocar um input
+      - ler uma entrada
+      - como ler um dado do usuário
+
+  - intent: Múltiplas_entradas
+    examples: | 
+      - é possível entrar com vários valores?
+      - multiplos inputs
+
+  - intent: Pegue_a_entrada_da_string
+    examples: | 
+      - input de uma string
+      - é possível ler uma string como entrada?
+
+  - intent: Endereço_de_memória
+    examples: | 
+      - o que é endereço de memória
+      - para que serve o endereço de memória
+
+  - intent: Funções_de_string
+    examples: | 
+      - quais as funções de uma string
+      - para que serve uma string
+
+  - intent: Comprimento_da_corda
+    examples: | 
+      - qual o tamanho de uma string?
+      - qual o comprimento de uma string?
+
+  - intent: Cordas_concatenadas
+    examples: | 
+      - concatenação de strings
+      - como juntar strings
+
+  - intent: Copiar_strings
+    examples: | 
+      - como copiar strings
+      - como duplicar uma string
+
+  - intent: Compare_strings
+    examples: | 
+      - como comparar duas strings
+      - saber se duas strings são iguais
+
+  - intent: Matrizes
+    examples: | 
+      - o que são matrizes?
+      - como funcionam matrizes no c?
+
+  - intent: Acesse_os_elementos_de_uma_matriz
+    examples: | 
+      - como acessar o elemento de uma matriz?
+      - pegar um elemento de uma matriz
+
+  - intent: Alterar_um_elemento_de_matriz
+    examples: | 
+      - alterando um elemento de uma matriz
+      - como alterar algum elemento de uma matriz
+
+  - intent: Loop_através_de_uma_matriz
+    examples: | 
+      - é possível percorrer uma matriz
+      - como percorrer uma matriz
+
+  - intent: Defina_o_tamanho_da_matriz
+    examples: | 
+      - como escolho o tamanho de uma matriz
+      - como definir o tamanho de uma matriz
+
+  - intent: Funções_predefinidas
+    examples: | 
+      - o que é uma função?
+      - qual o conceito de função?
+
+  - intent: Criar_uma_função
+    examples: | 
+      - como criar uma função?
+      - como definir uma função?
+
+  - intent: Chame_uma_função
+    examples: | 
+      - como chamar uma função?
+      - de que forma uma função é usada?
+
+  - intent: Parâmetros_e_argumentos
+    examples: | 
+      - parametros de uma função
+      - argumentos de uma função
+
+  - intent: Vários_parâmetros
+    examples: | 
+      - multiplos parametros em uma função
+      - mais de um parametro
+
+  - intent: Passe_as_matrizes_como_parâmetros_de_função
+    examples: | 
+      - como passar uma matriz na forma de parametro
+      - tem como passar uma matriz como parametro?
+
+  - intent: Valores_de_retorno
+    examples: | 
+      - como retornar algo de uma função
+      - a função pode retornar algum valor
+
+  - intent: Exemplo_da_vida_real_2
+    examples: | 
+      - me mostre um exemplo prático do uso de funções
+      - exemplo do uso de função
+
+  - intent: Como_os_ponteiros_estão_relacionados_a_matrizes
+    examples: | 
+      - como os ponteiros se relacionam com as matrizes?
+      - qual a relação de ponteiros e matrizes?
+
+  - intent: Funções_de_matemática
+    examples: | 
+      - quais as funções matematicas implementadas em c?
+      - existe funções matematicas em C?
+
+  - intent: Raiz_quadrada
+    examples: | 
+      - como calcular a raiz Raiz_quadrada? 
+      - qual a função para a raiz quadrada?
+
+  - intent: Em_volta_de_um_número
+    examples: | 
+      - arredondar um número?
+      - pegar o numero inteiro mais proximo de um valor
+
+  - intent: Poder
+    examples: | 
+      - calculo de potencia?
+      - como faço para fazer a potencia de um numero?
+
+  - intent: Outras_funções_de_matemática
+    examples: | 
+      - lista de funções matematicas
+      - quais outras funções matematicas
+
+  - intent: Estruturas
+    examples: | 
+      - o que é uma struct?
+      - como funciona uma struct?
+
+  - intent: Criar_uma_estrutura
+    examples: | 
+      - como definir uma struct?
+      - criar uma struct
+
+  - intent: Membros_da_estrutura_de_acesso
+    examples: | 
+      - como acessar os membros de uma struct?
+      - como pegar os dados de uma struct
+
+  - intent: Sintaxe_mais_simples
+    examples: | 
+      - me diga como criar uma struct de forma mais simples
+      - uma forma alternativa de declarar uma struct
+
+  - intent: Copiar_estruturas
+    examples: | 
+      - atribuindo uma struct em outra
+      - usar uma struct dentro de outra
+      - copiar os valores de uma struct para outra
+
+  - intent: Modificar_valores
+    examples: | 
+      - modificando valores de uma struct
+      - alter dados de uma struct
+
+  - intent: Exemplo_da_vida_real_3
+    examples: | 
+      - exemplo de uso de struct
+      - me mostre um uso prático de struct
+
+  - intent: Recursão
+    examples: | 
+      - qual o conceito de recursão
+      - como funciona a recursão

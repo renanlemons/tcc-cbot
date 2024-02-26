@@ -1,0 +1,433 @@
+version: "3.1"
+
+rules:
+
+- rule: Say greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: affirm
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- rule: deny
+  steps:
+  - intent: deny
+  - action: utter_deny
+
+- rule: mood great
+  steps:
+  - intent: mood_great
+  - action: utter_mood_great
+
+- rule: mood unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+
+- rule: O que é C?
+  steps:
+  - intent: O_que_é_C?
+  - action: utter_O_que_é_C?
+
+- rule: Por que aprender C?
+  steps:
+  - intent: Por_que_aprender_C?
+  - action: utter_Por_que_aprender_C?
+
+- rule: Diferença entre C e C ++
+  steps:
+  - intent: Diferença_entre_C_e_C_++
+  - action: utter_Diferença_entre_C_e_C_++
+
+- rule: Tipos numéricos
+  steps:
+  - intent: Tipos_numéricos
+  - action: utter_Tipos_numéricos
+
+- rule: Defina precisão decimal
+  steps:
+  - intent: Defina_precisão_decimal
+  - action: utter_Defina_precisão_decimal
+
+- rule: Alterar valores variáveis
+  steps:
+  - intent: Alterar_valores_variáveis
+  - action: utter_Alterar_valores_variáveis
+
+- rule: Adicione variáveis juntas
+  steps:
+  - intent: Adicione_variáveis_juntas
+  - action: utter_Adicione_variáveis_juntas
+
+- rule: Declarando (criando) variáveis
+  steps:
+  - intent: Declarando_(criando)_variáveis
+  - action: utter_Declarando_(criando)_variáveis
+
+- rule: Variáveis de saída
+  steps:
+  - intent: Variáveis_de_saída
+  - action: utter_Variáveis_de_saída
+
+- rule: O tipo de char
+  steps:
+  - intent: O_tipo_de_char
+  - action: utter_O_tipo_de_char
+
+- rule: Notas sobre personagens
+  steps:
+  - intent: Notas_sobre_personagens
+  - action: utter_Notas_sobre_personagens
+
+- rule: Declarar várias variáveis
+  steps:
+  - intent: Declarar_várias_variáveis
+  - action: utter_Declarar_várias_variáveis
+
+- rule: Especificadores de formato
+  steps:
+  - intent: Especificadores_de_formato
+  - action: utter_Especificadores_de_formato
+
+- rule: Tipos de dados
+  steps:
+  - intent: Tipos_de_dados
+  - action: utter_Tipos_de_dados
+
+- rule: Tipos de dados básicos
+  steps:
+  - intent: Tipos_de_dados_básicos
+  - action: utter_Tipos_de_dados_básicos
+
+- rule: Especificadores de formato básico
+  steps:
+  - intent: Especificadores_de_formato_básico
+  - action: utter_Especificadores_de_formato_básico
+
+- rule: C nomes de variáveis
+  steps:
+  - intent: C_nomes_de_variáveis
+  - action: utter_C_nomes_de_variáveis
+
+- rule: Obtenha o tamanho da memória
+  steps:
+  - intent: Obtenha_o_tamanho_da_memória
+  - action: utter_Obtenha_o_tamanho_da_memória
+
+- rule: Constantes
+  steps:
+  - intent: Constantes
+  - action: utter_Constantes
+
+- rule: Notas sobre constantes
+  steps:
+  - intent: Notas_sobre_constantes
+  - action: utter_Notas_sobre_constantes
+
+- rule: Boa prática
+  steps:
+  - intent: Boa_prática
+  - action: utter_Boa_prática
+
+- rule: Condições e declarações se
+  steps:
+  - intent: Condições_e_declarações_se
+  - action: utter_Condições_e_declarações_se
+
+- rule: A declaração if
+  steps:
+  - intent: A_declaração_if
+  - action: utter_A_declaração_if
+
+- rule: A declaração else
+  steps:
+  - intent: A_declaração_else
+  - action: utter_A_declaração_else
+
+- rule: O else if declaração
+  steps:
+  - intent: O_else_if_declaração
+  - action: utter_O_else_if_declaração
+
+- rule: Declaração de interruptor
+  steps:
+  - intent: Declaração_de_interruptor
+  - action: utter_Declaração_de_interruptor
+
+- rule: A palavra -chave quebrada
+  steps:
+  - intent: A_palavra_-chave_quebrada
+  - action: utter_A_palavra_-chave_quebrada
+
+- rule: A palavra -chave padrão
+  steps:
+  - intent: A_palavra_-chave_padrão
+  - action: utter_A_palavra_-chave_padrão
+
+- rule: rotações
+  steps:
+  - intent: rotações
+  - action: utter_rotações
+
+- rule: Enquanto loop
+  steps:
+  - intent: Enquanto_loop
+  - action: utter_Enquanto_loop
+
+- rule: O loop do Do/While
+  steps:
+  - intent: O_loop_do_Do/While
+  - action: utter_O_loop_do_Do/While
+
+- rule: Para loop
+  steps:
+  - intent: Para_loop
+  - action: utter_Para_loop
+
+- rule: Loops aninhados
+  steps:
+  - intent: Loops_aninhados
+  - action: utter_Loops_aninhados
+
+- rule: Quebrar
+  steps:
+  - intent: Quebrar
+  - action: utter_Quebrar
+
+- rule: Continuar
+  steps:
+  - intent: Continuar
+  - action: utter_Continuar
+
+- rule: Quebre e continue enquanto loop
+  steps:
+  - intent: Quebre_e_continue_enquanto_loop
+  - action: utter_Quebre_e_continue_enquanto_loop
+
+- rule: Cordas
+  steps:
+  - intent: Cordas
+  - action: utter_Cordas
+
+- rule: Strings de acesso
+  steps:
+  - intent: Strings_de_acesso
+  - action: utter_Strings_de_acesso
+
+- rule: Modificar strings
+  steps:
+  - intent: Modificar_strings
+  - action: utter_Modificar_strings
+
+- rule: Loop através de uma corda
+  steps:
+  - intent: Loop_através_de_uma_corda
+  - action: utter_Loop_através_de_uma_corda
+
+- rule: Outra maneira de criar cordas
+  steps:
+  - intent: Outra_maneira_de_criar_cordas
+  - action: utter_Outra_maneira_de_criar_cordas
+
+- rule: Exemplo da vida real
+  steps:
+  - intent: Exemplo_da_vida_real
+  - action: utter_Exemplo_da_vida_real
+
+- rule: Obtenha tamanho ou comprimento da matriz
+  steps:
+  - intent: Obtenha_tamanho_ou_comprimento_da_matriz
+  - action: utter_Obtenha_tamanho_ou_comprimento_da_matriz
+
+- rule: Fazendo melhores loops
+  steps:
+  - intent: Fazendo_melhores_loops
+  - action: utter_Fazendo_melhores_loops
+
+- rule: Entrada do usuário
+  steps:
+  - intent: Entrada_do_usuário
+  - action: utter_Entrada_do_usuário
+
+- rule: Múltiplas entradas
+  steps:
+  - intent: Múltiplas_entradas
+  - action: utter_Múltiplas_entradas
+
+- rule: Pegue a entrada da string
+  steps:
+  - intent: Pegue_a_entrada_da_string
+  - action: utter_Pegue_a_entrada_da_string
+
+- rule: Endereço de memória
+  steps:
+  - intent: Endereço_de_memória
+  - action: utter_Endereço_de_memória
+
+- rule: Funções de string
+  steps:
+  - intent: Funções_de_string
+  - action: utter_Funções_de_string
+
+- rule: Comprimento da corda
+  steps:
+  - intent: Comprimento_da_corda
+  - action: utter_Comprimento_da_corda
+
+- rule: Cordas concatenadas
+  steps:
+  - intent: Cordas_concatenadas
+  - action: utter_Cordas_concatenadas
+
+- rule: Copiar strings
+  steps:
+  - intent: Copiar_strings
+  - action: utter_Copiar_strings
+
+- rule: Compare strings
+  steps:
+  - intent: Compare_strings
+  - action: utter_Compare_strings
+
+- rule: Matrizes
+  steps:
+  - intent: Matrizes
+  - action: utter_Matrizes
+
+- rule: Acesse os elementos de uma matriz
+  steps:
+  - intent: Acesse_os_elementos_de_uma_matriz
+  - action: utter_Acesse_os_elementos_de_uma_matriz
+
+- rule: Alterar um elemento de matriz
+  steps:
+  - intent: Alterar_um_elemento_de_matriz
+  - action: utter_Alterar_um_elemento_de_matriz
+
+- rule: Loop através de uma matriz
+  steps:
+  - intent: Loop_através_de_uma_matriz
+  - action: utter_Loop_através_de_uma_matriz
+
+- rule: Defina o tamanho da matriz
+  steps:
+  - intent: Defina_o_tamanho_da_matriz
+  - action: utter_Defina_o_tamanho_da_matriz
+
+- rule: Funções predefinidas
+  steps:
+  - intent: Funções_predefinidas
+  - action: utter_Funções_predefinidas
+
+- rule: Criar uma função
+  steps:
+  - intent: Criar_uma_função
+  - action: utter_Criar_uma_função
+
+- rule: Chame uma função
+  steps:
+  - intent: Chame_uma_função
+  - action: utter_Chame_uma_função
+
+- rule: Parâmetros e argumentos
+  steps:
+  - intent: Parâmetros_e_argumentos
+  - action: utter_Parâmetros_e_argumentos
+
+- rule: Vários parâmetros
+  steps:
+  - intent: Vários_parâmetros
+  - action: utter_Vários_parâmetros
+
+- rule: Passe as matrizes como parâmetros de função
+  steps:
+  - intent: Passe_as_matrizes_como_parâmetros_de_função
+  - action: utter_Passe_as_matrizes_como_parâmetros_de_função
+
+- rule: Valores de retorno
+  steps:
+  - intent: Valores_de_retorno
+  - action: utter_Valores_de_retorno
+
+- rule: Exemplo da vida real_2
+  steps:
+  - intent: Exemplo_da_vida_real_2
+  - action: utter_Exemplo_da_vida_real_2
+
+- rule: Como os ponteiros estão relacionados a matrizes
+  steps:
+  - intent: Como_os_ponteiros_estão_relacionados_a_matrizes
+  - action: utter_Como_os_ponteiros_estão_relacionados_a_matrizes
+
+- rule: Funções de matemática
+  steps:
+  - intent: Funções_de_matemática
+  - action: utter_Funções_de_matemática
+
+- rule: Raiz quadrada
+  steps:
+  - intent: Raiz_quadrada
+  - action: utter_Raiz_quadrada
+
+- rule: Em volta de um número
+  steps:
+  - intent: Em_volta_de_um_número
+  - action: utter_Em_volta_de_um_número
+
+- rule: Poder
+  steps:
+  - intent: Poder
+  - action: utter_Poder
+
+- rule: Outras funções de matemática
+  steps:
+  - intent: Outras_funções_de_matemática
+  - action: utter_Outras_funções_de_matemática
+
+- rule: Estruturas
+  steps:
+  - intent: Estruturas
+  - action: utter_Estruturas
+
+- rule: Criar uma estrutura
+  steps:
+  - intent: Criar_uma_estrutura
+  - action: utter_Criar_uma_estrutura
+
+- rule: Membros da estrutura de acesso
+  steps:
+  - intent: Membros_da_estrutura_de_acesso
+  - action: utter_Membros_da_estrutura_de_acesso
+
+- rule: Sintaxe mais simples
+  steps:
+  - intent: Sintaxe_mais_simples
+  - action: utter_Sintaxe_mais_simples
+
+- rule: Copiar estruturas
+  steps:
+  - intent: Copiar_estruturas
+  - action: utter_Copiar_estruturas
+
+- rule: Modificar valores
+  steps:
+  - intent: Modificar_valores
+  - action: utter_Modificar_valores
+
+- rule: Exemplo da vida real_3
+  steps:
+  - intent: Exemplo_da_vida_real_3
+  - action: utter_Exemplo_da_vida_real_3
+  
+- rule: Recursão
+  steps:
+  - intent: Recursão
+  - action: utter_Recursão

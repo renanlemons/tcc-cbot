@@ -1,0 +1,381 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - O_que_é_C?
+  - Por_que_aprender_C?
+  - Diferença_entre_C_e_C_++
+  - Iniciar
+  - Tipos_numéricos
+  - Defina_precisão_decimal
+  - Alterar_valores_variáveis
+  - Adicione_variáveis_juntas
+  - Declarando_(criando)_variáveis
+  - Variáveis_de_saída
+  - O_tipo_de_char
+  - Notas_sobre_personagens
+  - Declarar_várias_variáveis
+  - Especificadores_de_formato
+  - Tipos_de_dados
+  - Tipos_de_dados_básicos
+  - Especificadores_de_formato_básico
+  - C_nomes_de_variáveis
+  - Obtenha_o_tamanho_da_memória
+  - Constantes
+  - Notas_sobre_constantes
+  - Boa_prática
+  - Condições_e_declarações_se
+  - A_declaração_if
+  - A_declaração_else
+  - O_else_if_declaração
+  - Declaração_de_interruptor
+  - A_palavra_-chave_quebrada
+  - A_palavra_-chave_padrão
+  - rotações
+  - Enquanto_loop
+  - O_loop_do_Do/While
+  - Para_loop
+  - Loops_aninhados
+  - Quebrar
+  - Continuar
+  - Quebre_e_continue_enquanto_loop
+  - Cordas
+  - Strings_de_acesso
+  - Modificar_strings
+  - Loop_através_de_uma_corda
+  - Outra_maneira_de_criar_cordas
+  - Diferenças
+  - Exemplo_da_vida_real
+  - Obtenha_tamanho_ou_comprimento_da_matriz
+  - Fazendo_melhores_loops
+  - Entrada_do_usuário
+  - Múltiplas_entradas
+  - Pegue_a_entrada_da_string
+  - Endereço_de_memória
+  - Funções_de_string
+  - Comprimento_da_corda
+  - Cordas_concatenadas
+  - Copiar_strings
+  - Compare_strings
+  - Criando_indicadores
+  - Desreferência
+  - Matrizes
+  - Acesse_os_elementos_de_uma_matriz
+  - Alterar_um_elemento_de_matriz
+  - Loop_através_de_uma_matriz
+  - Defina_o_tamanho_da_matriz
+  - Funções_predefinidas
+  - Criar_uma_função
+  - Chame_uma_função
+  - Parâmetros_e_argumentos
+  - Vários_parâmetros
+  - Passe_as_matrizes_como_parâmetros_de_função
+  - Valores_de_retorno
+  - Exemplo_da_vida_real_2
+  - Ponteiros_e_matrizes
+  - Como_os_ponteiros_estão_relacionados_a_matrizes
+  - Funções_de_matemática
+  - Raiz_quadrada
+  - Em_volta_de_um_número
+  - Poder
+  - Outras_funções_de_matemática
+  - Declaração_e_definição_de_função
+  - Outro_exemplo
+  - Estruturas
+  - Criar_uma_estrutura
+  - Membros_da_estrutura_de_acesso
+  - E_as_cordas_em_estruturas?
+  - Sintaxe_mais_simples
+  - Copiar_estruturas
+  - Modificar_valores
+  - Exemplo_da_vida_real_3
+  - Recursão
+  - Exemplo_de_recursão
+
+responses:
+  utter_greet:
+    - text: "Olá! Como posso ajudar?"
+    - text: "Oi, tudo bem com vc?"
+    - text: "Olá, é um prazer ter você aqui! Como posso ajudar?"
+
+  utter_goodbye:
+    - text: "Até mais! Foi um prazer conversar com você."
+    - text: "Que pena que você já vai :("
+    - text: "Tchau, espero que volte outra hora"
+
+  utter_affirm:
+    - text: "Ótimo, vamos continuar então!"
+    - text: "Ok, vamos lá!"
+
+  utter_deny:
+    - text: "Entendo. Alguma outra coisa que possa ajudar?"
+    - text: "Ok, vamos tentar outra coisa então."
+    - text: "Sem problemas. O que mais posso fazer por você?"
+
+  utter_mood_great:
+    - text: "Que bom que está se sentindo ótimo! Em que posso ajudar?"
+    - text: "Fico feliz em saber que está bem. O que posso fazer por você hoje?"
+    - text: "Excelente! Vamos continuar então?"
+
+  utter_cheer_up:
+    - text: "Sinto muito em ouvir que você está triste."
+    - text: "Que pena, sinto muito por você."
+
+  utter_mood_unhappy:
+    - text: "que pena"
+    - text: "sinto muito por você"
+    - text: "=("
+
+  utter_bot_challenge:
+    - text: "Sim, sou um bot desenvolvido para ajudar com a linguagem C"
+    - text: "Sim, você está falando com um bot. Em que posso ajudar?"
+
+  utter_O_que_é_C?:
+    - text: "C é uma linguagem de programação de uso geral criada por Dennis Ritchie no The Bell Laboratories em 1972. É um idioma muito popular, apesar de ser velho.A principal razão de sua popularidade é porque é uma linguagem fundamental no campo da ciência da computação.C está fortemente associada ao UNIX, pois foi desenvolvido para escrever o sistema operacional UNIX."
+
+  utter_Por_que_aprender_C?:
+    - text: "É uma das linguagens de programação mais populares do mundo, se você conhece C, não terá nenhum problema em aprender outras linguagens de programação populares, como Java, Python, C ++, C#, etc., pois a sintaxe é semelhante C é muito rápida, comparadaPara outras linguagens de programação, como Java e Python C é muito versátil;Pode ser usado em aplicações e tecnologias"
+
+  utter_Diferença_entre_C_e_C_++:
+    - text: "C ++ foi desenvolvido como uma extensão de C, e ambos os idiomas têm quase a mesma sintaxe sendo a principal diferença entre C e C ++ é que C ++ Suporte Classes e Objetos, enquanto C não"
+
+  utter_Tipos_numéricos:
+    - text: "Use int quando precisar armazenar um número inteiro sem decimais, como 35 ou 1000, e flutuar ou dobrar quando precisar de um número de ponto flutuante (com decimais), como 9,99 ou 3.14515.Int Int MyNum = 1000;printf (%d, mynum);Experimente você mesmo »Float Float mynum = 5,75;printf (%f, mynum);Experimente você mesmo »duplo mynum = 19,99;printf (%lf, mynum);Experimente você mesmo »Float vs. Double a precisão de um valor de ponto flutuante indica quantos dígitos o valor pode terApós o ponto decimal.A precisão do flutuador é de seis ou setedígitos decimais, enquanto variáveis duplas têm uma precisãode cerca de 15 dígitos.Portanto, muitas vezes é mais seguro usar o dobro para a maioria dos cálculos - mas observe que ele ocupa o dobro da memória do que flutuar (8bytes vs. 4 bytes). Números flutuantes do escientíficos também podem ser um número científico com um e para indicar a potência de 10: exemplo float f1 = 35e3;duplo d1 = 12e4;printf (%f \ n, f1);printf (%LF, D1);Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Defina_precisão_decimal:
+    - text: "Você provavelmente já percebeu que se você imprimir um número de ponto flutuante,A saída mostrará muitos dígitos após o ponto decimal: exemplo float myfloatnum = 3.5;duplo mydoublenum = 19,99;printf (%f \ n, myfloatnum);  // produz 3.500000 printf (%lf, mydoublenum);// saídas  19.990000 Experimente você mesmo »Se você deseja remover os zeros extras (defina precisão decimal), você pode usar umponto (.) seguido por um número que especifica quantos dígitos devem ser mostradosApós o ponto decimal: exemplo float myfloatnum = 3.5;printf (%f \ n, myfloatnum);// O padrão mostrará 6 dígitos após o ponto decimal printf (%. 1f \ n,  myfloatnum);// mostra apenas 1 dígito printf (%. 2f \ n, myfloatnum);// Apenas  mostre 2 dígitos printf (%. 4f, myfloatnum);// mostra apenas 4 dígitos Experimente você mesmo »"
+
+  utter_Alterar_valores_variáveis:
+    - text: "Se você atribuir um novo valor a uma variável existente, ele substituirá o valor anterior. \nexemplo: \nint mynum = 15;// mynum é 15\n mynum = 10;// agora mynum está 10"
+
+  utter_Adicione_variáveis_juntas:
+    - text: "Para adicionar o valor de uma variável com o de outra variável, você pode usar o operador +: \nexemplo: \nint x = 5;\nint y = 6;\nint sum = x + y;\nprintf (\"%d, soma\");"
+
+  utter_Declarando_(criando)_variáveis:
+    - text: "Para criar uma variável, especifique o tipo e atribua-lhe um valor \nsintaxe:\n tipo variatlebleName = value; \nonde o tipo é um dos tipos C (como o INT), e VariableName é o nome da variável (como x ou myname).O sinal igual é usado para atribuir um valor à variável."
+
+  utter_Variáveis_de_saída:
+    - text: "Você aprendeu pode produzir valores/imprimir texto com a função printf(): \nexemplo: \nprintf (\"Hello World!\");\n\nEm muitas outras linguagens de programação (como Python, Java e C ++), você normalmente usaria uma função de impressão para exibir o valor de uma variável, no entanto, isso não é possível em c:\n exemplo \nint mynum = 15;\nprintf (mynum);// Nada acontece\n\nPara produzir variáveis em C, você deve se familiarizar com algo chamado especificadores de formato."
+
+  utter_O_tipo_de_char:
+    - text: "O tipo de dados char é usado para armazenar um único caractere. O caractere deve estar cercado por aspas, como 'a' ou 'c', e usamos o especificador de formato %c para imprimi -lo \nexemplo: \nchar mygrade = 'a';\nprintf (\"%c, mygrade\");\nAlternativamente, se você estiver familiarizado com o ASCII, poderá usar valores ASCII para exibir determinados caracteres.Observe que esses valores não estão cercados por aspas (\"\"),Como eles são números \nexemplo: \nchar a = 65, b = 66, c = 67;\nprintf (\"%c, a\");\nprintf (\"%c, b\");\nprintf (\"%c, c\");\n\nDica: Existe uma tabela de todos os valores ASCII."
+
+  utter_Notas_sobre_personagens:
+    - text: "Se você tentar armazenar mais do que um único caractere, ele apenas imprimirá o último caracter \nExemplo: \nchar mytext = 'hello';\nprintf (\"%c, myText\");\n\nNota: Não use o tipo de char para armazenar múltiplos caracteres, pois pode produzir erros. Para armazenar vários caracteres (ou palavras inteiras), use strings \nexemplo: \nchar mytext [] = \"hello\";\nprintf (\"%s, myText\");\nPortanto saiba que usamos strings para armazenar vários caracteres/texto e o tipo char para caracteres únicos."
+
+  utter_Declarar_várias_variáveis:
+    - text: "Para declarar mais de uma variável do mesmo tipo, use uma lista separada por vírgula \nexemplo: \nint x = 5, y = 6, z = 50;\nprintf (\"%d, x + y + z\");\n\nVocê também pode atribuir o mesmo valor a várias variáveis do mesmo tipo \nexemplo: \nint x, y, z;\nx = y = z = 50;\nprintf (\"%d, x + y + z\");"
+
+  utter_Especificadores_de_formato:
+    - text: "Os especificadores de formato são usados juntamente com a função printf () para informar ao compilador que tipo de dados a variável está armazenando.Isso é Basicamente, um espaço reservado para o valor variável. Um especificador de formato inicia com um sinal percentual %, seguido por um caractere. \nPor exemplo, para produzir o valor de uma variável int, use o formato especificador %d cercado por aspas duplas dentro da função printf \nexemplo: \nint mynum = 15;\nprintf (\"%d, mynum\");// saídas 15 \n\nPara imprimir outros tipos: \nuse %c para char e %f para float \nexemplo: \ncriar variáveis:\nint mynum = 15;// Inteiro (número inteiro) \nFloat  myfloatnum = 5,99;// Número do ponto flutuante \nChar MyLetter = 'D';//  Caractere \n// imprimir variáveis \nprintf (\"%d \ n, mynum\");\nprintf (\"%f \ n, myfloatnum\");\nprintf (\"%c \ n, myletter\"); \n\nPara combinar o texto e uma variável, separe-os com uma vírgula dentro da função printf() \nexemplo: int mynum = 15;\nprintf (\"Meu número favorito é: %d, mynum\");\n\nPara imprimir tipos diferentes em uma função printf(), você pode usar o seguinte exemplo: \nint mynum = 15;\nchar myletter = 'd';\nprintf (\"Meu número é %d e meu  A carta é %C , Mynum, MyLetter\");"
+
+  utter_Tipos_de_dados:
+    - text: "Uma variável em C deve ser um tipo de dados especificado,e você deve usar um especificador de formato dentro da função printf() para exibi-lo \nexemplo: \n// criar variáveis int mynum = 5;// Inteiro (número inteiro)\nFloat  myfloatnum = 5,99;// Número do ponto flutuante \nChar MyLetter = 'D';//  Caractere \n// imprimir variáveis \nprintf (\"%d \ n, mynum\");\nprintf (\"%f \ n, myfloatnum\");\nprintf (\"%c \ n, myletter\");"
+
+  utter_Tipos_de_dados_básicos:
+    - text: "Inteiros: São usados para armazenar números inteiros. Existem diferentes tamanhos de inteiros que você pode usar, dependendo da faixa de valores que deseja representar.\nPonto Flutuante: São usados para armazenar números com parte fracionária.\nCaracteres: São usados para armazenar caracteres individuais.\nBooleanos: Em C, não há um tipo de dados booleano padrão. Em vez disso, os inteiros são frequentemente usados para representar valores booleanos, onde 0 representa falso e qualquer outro valor representa verdadeiro."
+
+  utter_Especificadores_de_formato_básico:
+    - text: "Existem diferentes especificadores de formato para cada tipo de dados.Aqui estão alguns deles: \n%d = int \n%f = float \n%lf = double \n%c = char \n%s = strings \n%lu = unsigned long"
+
+  utter_C_nomes_de_variáveis:
+    - text: "Todas as variáveis C devem ser identificadas com nomes únicos. Esses nomes únicos são chamados de identificadores. Identificadores podem ser nomes curtos (como x e y) ou nomes mais descritivos (idade, soma, total volume). \nNota: Recomenda-se usar nomes descritivos em ordem para criar um código compreensível e sustentável \nAs regras gerais para nomear variáveis são: os nomes podem conter letras, dígitos e sublinhados, os nomes devem começar com uma letra ou com underline(_) e são sensíveis a letras maiúsculas e minúsculas(MyVar e Myvar são variáveis diferentes) \nOs nomes não podem conter espaços em branco ou caracteres especiais(como: !, #, %, etc.) e palavras reservadas (como int, float e etc) não podem ser usadas como nome de uma variável"
+
+  utter_Obtenha_o_tamanho_da_memória:
+    - text: "Refere-se a quanto espaço um tipo de dado ocupa na memória do computador. Para realmente obter o tamanho (em bytes) de um tipo de dados ou variável, use o operador sizeof \nExemplo: \nint myint;\nfloat myfloat;\ndouble mydouble;\nchar mychar;\nprintf (\"%lu \ n, sizeof (myint));printf (%lu \ n, sizeof (myfloat));\nprintf (%lu, sizeof (myDouble)\");\nprintf (\"%lu, sizeof (mychar)\");\n\nObserve que usamos o Formato %lu de especificador para imprimir o resultado, em vez de %d. Isso ocorre porque o compilador espera que o tamanho do operador retorne um int longo(%lu), em vez de int ( %d). Em alguns computadores, pode funcionar com %d, mas é mais seguro usar %lu.\n\nPor que devo saber o tamanho dos tipos de dados? O uso do tipo de dados certo para o objetivo certo salvará a memória e melhorará o desempenho do seu programa."
+
+  utter_Constantes:
+    - text: "Se você não deseja que alguem alterem os valores de uma variável existente, você pode usar a palavra-chave const. Isso declarará a variável como constante, o que significa que ela é imutável e de somente leitura \nexemplo: \nconst int mynum = 15;// mynum sempre terá 15 \nmynum = 10;// erro:  atribuição de variável somente leitura 'mynum' \n\nVocê sempre deve declarar a variável como constante quando você tem valores que são improváveis que mudem \nexemplos: \nconst int miniensperhour = 60; \nconst float pi = 3,14;"
+
+  utter_Notas_sobre_constantes:
+    - text: "Quando você declara uma variável constante, ela deve ser atribuída com um valor \nExemplo: \nconst Int MiniensperHour = 60;\nNo entanto, isso não funcionará: \nconst int Minightperhour;Mininsperhour = 60; // Erro"
+
+  utter_Boa_prática:
+    - text: "Uma coisa sobre variáveis constantes é que é considerado uma boa prática declará-las com maiúsculas. Não é necessário, mas é útil para a legibilidade do código e comum entre programadores de C \nExemplo: \nconst int birthYear = 1980;"
+
+  utter_Condições_e_declarações_se:
+    - text: "C possui suporte a condições lógicas usuais da matemática como: \nmenor que: a < b \nmenor ou igual a: a <= b \nmaior que: a> b \nmaior ou igual a: a> = b \nigual a a == b \nnão igual a: a! = b\nVocê pode usar essas condições para executar ações diferentes para diferentes decisões."
+
+  utter_A_declaração_if:
+    - text: "Use a instrução if para especificar um bloco de código a ser executado se uma condição for verdadeira. \nsyntax: if (condição) {{// bloco de código a ser executado se o  A condição é verdadeira}} \nObserve que if tem que estar com letras minúsculas, pois letras maiúsculas (If ou iF) gerarão um erro. No exemplo abaixo, testamos dois valores para descobrir se 20 é maior que 18. Se a condição for verdadeira, imprima algum texto: \n if(20 > 18) {{printf(\"20 é maior que 18\");}} \n\nTambém podemos testar variáveis como por exemplo: \nint x = 20;\nint y = 18;\nif (x> y) {{printf(\"x é maior que  y \");}} \n\nExplicado o exemplo acima: usamos duas variáveis, x e y, para testar se X é maior que Y(usando o operador >). Como x é 20 e y é 18, e sabemos que 20 é maior que 18, imprimimos na tela que X é maior que Y."
+
+  utter_A_declaração_else:
+    - text: "Use a instrução else para especificar um bloco de código a ser executado se a condição for falsa. \nsyntax: if (condição){{// bloco de código a ser executado se o  condição é verdadeira}} else {{// bloco de código a ser executado  se a condição for falsa}} \nexemplo: \nint time = 20;\nif (tempo <18) {{printf (\"bom dia\");}} else {{printf(\"Boa noite\");}} // Saída Boa noite. \n\nExplicado o exemplo acima, o tempo 20 é maior que 18, então a condição é falsa, por causa disso, passamos para a condição else e imprimimos para a tela boa noite. Se a hora fosse menor que 18, o programa imprimiria bom dia ."
+
+  utter_O_else_if_declaração:
+    - text: "Use a instrução else if para especificar uma nova condição se a primeira condição for falsa .\nsyntax: if (condition1) {{// bloco de código a ser executado se  condição1 é verdadeiro}} else if (condição 2) {{// bloco de  Código a ser executado se a condição1 for falsa e condição2 for verdadeira}} else {{// bloco de código a ser executado se a condição1 for falsa  e condição2 é falso}} \nexemplo: \nint time = 22;\nif (tempo <10) {{printf(\"bom dia\");}} else if (horário <20) {{printf (\"bom dia\");}} else {{printf (\"Boa noite\");}} // Saída Boa noite. \n\nExplicado no exemplo acima, o tempo 22 é maior que 10; portanto, a primeira condição é falsa. A próxima condição, na declaração if também é falsa, por isso passamos para a condição else, já que a condição1 e a condição2 são falsas e portanto imprime na tela boa noite."
+
+  utter_Declaração_de_interruptor:
+    - text: "Em vez de escrever muitas declarações de if ... else, você pode usar a instrução SWITCH. A instrução Switch seleciona um dos muitos blocos de código a serem executados: sintax: \nswitch(expressão) {{case x: //bloco de código \nbreak;caso y: //bloco de código \nbreak; \ndefault: //bloco de código}} \nO funcionamento do switch é assim: Uma instrução switch permite que uma única variável seja comparada com várias constantes possíveis. Se a variável corresponder a uma das constantes, será feito um salto de execução até esse ponto. Uma constante não pode aparecer mais de uma vez e só pode haver uma expressão default. \n\nO exemplo abaixo usa o número do dia da semana para saber o nome do dia da semana: \nint dia = 4;\nswitch(dia){{\ncase 1: printf(\"segunda -feira\"); break;\ncase 2: printf(\"Terça-feira\");break;\ncase 3: printf (\"quarta -feira\");break;\ncase 4: printf (\"Quinta -feira\");break;\ncase 5: printf (\"sexta -feira\");break;\ncase 6: printf (\"Sábado\");break;\ncase 7: printf (\"domingo\");break;}} // saída: Quinta -feira (dia 4)"
+
+  utter_A_palavra_-chave_quebrada:
+    - text: "Quando C atingir uma palavra break, ele sai do bloco do switch. Isso interromperá a execução de mais código e teste de case dentro do bloco do switch. Quando uma condição é encontrada e o trabalho é feito, é hora de um break, pois não há necessidade de mais testes. Uma break pode economizar muito tempo de execução, porque ignora a execução de todo o restante do código no bloco do switch."
+
+  utter_A_palavra_-chave_padrão:
+    - text: "A palavra default especifica algum código a ser executado se não houver um case correspondente \nexemplo: \nint dia = 4;\nswitch (dia) {{\ncase 6: printf(\"Hoje é  Sábado\");break; \ncase 7: Printf (\" Hoje é domingo \"); break;\ndefault: Printf (\"Ansioso pelo fim de semana \");}} // Saida: Ansioso pelo fim de semana \n\nNota: A palavra default deve ser usada como a última declaração no switch e não precisa de um break."
+
+  utter_rotações:
+    - text: "Os loops podem executar um bloco de código enquanto uma condição especificada for atingida. Os loops são úteis porque economizam tempo, reduzem erros e tornam o código mais legível."
+
+  utter_Enquanto_loop:
+    - text: "O loop while percorre um bloco de código enquanto uma condição especificada for verdadeira \nsintaxe: while(condição){{// bloco de código a ser executado}}\n\nNo exemplo abaixo, o código no loop será executado repetidamente, desde que uma variável (i) seja menor que 5:\n int i=0;\nwhile(i <5){{printf (\"%d\", i);\ni ++;}} \n\nNota: Não se esqueça de incrementar a variável usada na condição (No exemplo anterior: i++), caso contrário o loop nunca vai acabar!"
+
+  utter_O_loop_do_Do/While:
+    - text: "O loop DO/While é uma variante do loop while.Este loop vai executar o bloco de código uma vez, antes de verificar se a condição for verdadeira, então será repetido o loop, desde que a condição seja verdadeira.\nSyntax: \nDo {{// Bloco de código a ser executado}} while (condição); \n\nO loop do/while sempre será executado pelo menos uma vez, mesmo que a condição seja falsa, porque o bloco de código é executado antes que a condição seja testada \n\nO exemplo abaixo usa um loop DO/While:\nint i = 0;\ndo {{printf (\"%d\", i);i ++;}} while (i<5);\n\nNão se esqueça de incrementar a variável usada na condição, caso contrário o loop nunca vai acabar!"
+
+  utter_Para_loop:
+    - text: "Quando você sabe exatamente quantas vezes você deseja percorrer um bloco de Código, use o loop for em vez de um loop while / do while \nsintaxe: \nfor(expressão 1; expressão 2; expressão 3) {{// bloco de código a ser executado}} \nA expressão 1 é executada (uma vez) antes da execução do bloco de código. A Expressão2 Define a condição para executar o bloco de código. A expressão 3 é executada (sempre) após a execução do bloco de código. \nO exemplo abaixo imprimirá os números 0 a 4: \nint i;\nfor (i = 0; i <5; i ++){{printf (\"%d\", i);}} \n\nExplicando o exemplo: A Expressão 1 define uma variável antes do início do loop (int i = 0). A Expressão 2 define a condição para a execução do loop (devo ser menor que 5). Se a condição for verdadeira, o loop começará de novo, se for falso, o loop acabará. A expressão 3 aumenta o valor da variável (i ++) cada vez que o bloco de código do loop for executado."
+
+  utter_Loops_aninhados:
+    - text: "Também é possível colocar um loop dentro de outro loop. Isso é chamado de loop aninhado. O loop interno será executado uma vez para cada iteração do loop externo \n\nexemplo: \nint i, j;\n// loop externo\nfor(i = 1; i <= 2; ++ i) {{printf (\"externo:  %d \", i); // executa 2 vezes \n// loop interno\n for(j = 1; j <= 3; ++ j) {{printf ( \"interno: %d \", j); //Executa 6 vezes (2 * 3)}}"
+
+  utter_Quebrar:
+    - text: "A declaração de break pode ser usada para pular de um loop, além de ser usada no case do switch. \n\nEste exemplo salta do loop for quando i é igual a 4: \nint i;\nfor (i = 0; i <10; i ++) {{if (i == 4) {{break;}} \nprintf (\"%d \", i);}}"
+
+  utter_Continuar:
+    - text: "A declaração continue quebra uma iteração (em um loop), se ocorrer uma condição especificada e continuar com a próxima iteração no loop.\nEste exemplo pula o valor de i = 4: \nint i;\nfor (i = 0; i <10; i ++) {{if (i == 4) {{continue;}} \nprintf (\"%d \", i);}}"
+
+  utter_Quebre_e_continue_enquanto_loop:
+    - text: "Você também pode usar o break e continue em loops while \n\nExemplo break: \nint i = 0;\nwhile (i <10) {{if (i == 4) {{break;}} \nprintf (\"%d \", i);i ++;}} \n\nExemplo continue: \nint i = 0;\nwhile (i <10) {{if (i == 4) {{i ++;continuar;}}\nprintf (%d \ n, i);i ++;}}"
+
+  utter_Cordas:
+    - text: "As strings são usadas para armazenar texto/caracteres. \nPor exemplo, Hello World é uma sequência de caracteres.\n Ao contrário de muitas outras linguagens de programação, C não possui um tipo string para criar facilmente variáveis de string. Em vez disso, você deve usar o tipo char e criar um array de caracteres para formar uma string em C: \nchar cumprimentos [] = \"Hello World!\"; \nObserve que você precisa usar aspas duplas (\"\"). Para a saída da string, você pode usar a função printf() juntamente com a com o especificador de formato %s para dizer ao C que agora estamos trabalhando com strings\n\nexemplo: \nchar saudações [] = \"Hello World!\";\nprintf(\"%s\", \"saudações\");"
+
+  utter_Strings_de_acesso:
+    - text: "Como as strings são na verdade matrizes/vetores em C, você pode acessar uma string referindo-se ao número de seu índice dentro de colchetes quadrados []. \n\nEste exemplo imprime o primeiro caractere (0) em Greetings: \nchar Greetings [] = \"Hello World!\";\nprintf(\"%c\", \"Greetings[0]\");\n\nObserve que precisamos usar o especificador de formato %c para imprimir um único caractere."
+
+  utter_Modificar_strings:
+    - text: "Para alterar o valor de um caractere específico em uma string, consulte o número do índice e use aspas simples ('') \nExemplo: \nchar Greetings [] = \"Hello World!\";\nGreetings[0] = 'J';\nprintf (\"%s\", Greetings);// produz Jello World! em vez de Hello World!"
+
+  utter_Loop_através_de_uma_corda:
+    - text: "Você também pode percorrer os caracteres de uma string, usando um loop \n\nexemplo: \nchar carname[] = Volvo;\nint i;\nfor(i = 0; i <5; ++ i){{printf (\"%c \", carname [i]);}}\n\nVocê também pode usar sizeof(em vez de manualmente escrever o tamanho da matriz na condição de loop (i<5)) para tornar o loop mais sustentável."
+
+  utter_Outra_maneira_de_criar_cordas:
+    - text: "Além de usar uma string literal para criar uma string variável sendo esta a maneira mais fácil de criar uma string em C. Mas você também deve observar que pode-se criar uma string com um conjunto de caracteres. \nExemplo: \nchar cumprimentos [] = {{'h', 'e', 'l', 'l', 'o', '', 'w', 'o',' r ',' l ',' d ',  '!', '\\0'}};\nprintf (\"%s\", \"saudações\");\nNota: por que incluímos o caractere \\0 no final? Isso é conhecido como caráter nulo de terminação e deve ser incluído ao criar strings usando este método. Diz ao C que este é o fim da string."
+
+  utter_Exemplo_da_vida_real:
+    - text: "Use strings para criar uma mensagem de boas-vindas simples \nExemplo: \nchar mensagem [] = \"Bom vê-lo\";\nchar fname [] = \"John\";\nprintf(\"%s  %s!\", mensagem, fname);"
+
+  utter_Obtenha_tamanho_ou_comprimento_da_matriz:
+    - text: "Para obter o tamanho de uma matriz, você pode usar o operador sizeof \nExemplo: \nMyNumbers [] = {{10, 25, 50, 75, 100}};\nprintf (\"%lu\", sizeof (mynumbers));//  Imprime 20\n\nPor que o resultado mostrou 20 em vez de 5, quando a matriz contém 5 elementos? é porque o tamanho do operador retorna o tamanho de um tipo em bytes. E o tipo int geralmente tem tamanho de 4 bytes, então no exemplo acima: 4 x 5(4 bytes x 5 elementos) = 20 bytes. \n\nO tamanho da memória de uma matriz é ótimo quando você está trabalhando com programas maiores que exigem um bom gerenciamento de memória. \n\nQuando você deseja descobrir quantos elementos uma matriz possui, você pode usar a seguinte fórmula (que divide o tamanho da matriz pelo tamanho de um elemento de matriz): \nmynumbers [] = {{10, 25, 50, 75, 100}};\nint length = sizeof(mynumbers) /  sizeof (mynumbers [0]);\nprintf (\"%d, comprimento\");// imprime 5"
+
+  utter_Fazendo_melhores_loops:
+    - text: "Ao escrever o tamanho da matriz na condição de loop (i<4) não temos a pratica ideal, pois só funcionará para matrizes de tamanho especificado \nExemplo: \nint mynumbers [] = {{25, 50, 75, 100}};\nint i;para (i = 0; i <4; i ++)  {{printf (\"%d\", mynumbers [i]);}} \n\nÉ melhor usar: \nint mynumbers [] = {{25, 50, 75, 100}};\nint length = sizeof (mynumbers)  / sizeof (mynumbers [0]);\nint i;\n for(i = 0; i < length; i ++){{printf (\"%d \", mynumbers [i]);}}"
+
+  utter_Entrada_do_usuário:
+    - text: "Para obter a entrada do usuário, você pode usar a função scanf ()\nExemplo de saída um número inserido pelo usuário: \n// criar uma variável inteira que armazenará o número Recebemos do usuário: \nint mynum;\n// Peça ao usuário que digite um número\nprintf (\"Digite um número:  \"); \n// obtenha e salve o número que os tipos de usuário \nscanf (\"%d\", &mynum); \n//Imprima o número que o usuário digitou \nprintf(\"Seu número é: %d \", mynum); \n\nA função scanf() leva dois argumentos: o especificador de formato da variável(%d no exemplo acima) e o operador de referência(&mynum), que armazena o endereço de memória da variável."
+
+  utter_Múltiplas_entradas:
+    - text: "A função scanf() também permite múltiplas entradas (como um número inteiro e um caractere no exemplo a seguir) \nExemplo: \n// Crie uma variável int e char \nint mynum;\nchar mychar;\n//Peça ao usuário que digite um número e um caractere \nprintf(\"Digite um número e um caracter e pressione enter: \"); \n//obtenha e salve o número e caracter digitado pelo usuário \nscanf(\"%d %c, &mynum, &mychar\"); \n// Imprimir  o número \nprintf(\"Seu número é: %d \", mynum);\n// imprima o caractere \nprintf(\"Seu personagem é: %C \", mychar);"
+
+  utter_Pegue_a_entrada_da_string:
+    - text: "Você pode obter uma string inserida pelo usuário \nExemplo: \n// criar uma string \nchar FirstName[30];\n// Peça ao usuário para inserir algum texto \nprintf (\"Digite seu primeiro nome: \");\n// Obtenha e salve o texto \nscanf(\"%s, primeiro nome\");\n// Imprima o texto \nprintf (\"hello %s\",  primeiro nome);\n\nNota: Ao trabalhar com strings em scanf(), você deve especificar o tamanho da string/matriz(No exemplo acima usamos um número muito alto (30), mas pelo menos então temos certeza que ira armazenar caracteres suficientes para o primeiro nome), e você não deve usar o operador de referência(&). \n\nA função scanf() tem algumas limitações: considera o espaço(espaço em branco,indentaçoes, etc) como um caracter terminal, o que significa que ele só pode exibir uma única palavra (mesmo se você digitar muitas palavras). \nExemplo: \nchar FullName[30];\nprintf(\"Digite seu nome completo: \")\n;scanf(\"%s\", fullName);\nprintf(\"Hello %s\",  fullName);\n//Digite seu nome completo: John Doe // Olá, John do exemplo da saída acima. Você esperaria que o programa imprimisse John Doe, mas ele apenas imprime John. \n\n\nÉ por isso que para ler uma linha de texto pode se usar a função fgets. Observe que você deve incluir o seguinte argumentos: o nome da variável string, sizeof(string_name) e stdin \nExemplo: \nchar fullname[30];\n printf(\"Digite seu nome completo: \");fgets(fullname, sizeof (fullname), stdin);\nprintf(\"Hello %s\",  nome completo);\n//Digite seu nome completo: John Doe // Saída do exemplo acima: Hello John Doe Run"
+
+  utter_Endereço_de_memória:
+    - text: "Quando uma variável é criada em C, um endereço de memória é atribuído à variável. O endereço de memória é a localização de onde a variável é armazenada no computador. Quando atribuímos um valor à variável, ela é armazenada neste endereço de memória. Para acessar, use a operador de referência(&) e o resultado representa onde a variável é armazenada. \nExemplo: \nint myage = 43;\nprintf(\"%p\", &myage); // Saídas 0x7FFE5367E044 \n\nNota: O endereço da memória está na forma hexadecimal (0x ..). Você provavelmente não terá o mesmo resultado em seu programa, pois isso depende de onde a variável é armazenada no seu computador. Você também deve observar que a variável myage é frequentemente chamada de ponteiro. Um ponteiro armazena basicamente o endereço de memória de uma variável como seu valor.Para imprimir valores de ponteiro, usamos o especificador de formato %p. \n\nPor que é útil conhecer o endereço de memória?Os ponteiros são importantes em C, porque nos permitem manipular os dados na memória do computador - isso pode reduzir o código e melhorar o desempenho. Ponteiros são uma das coisas que fazem C se destacar de outras linguagens de programação"
+
+  utter_Funções_de_string:
+    - text: "C também possui muitas funções úteis de string, que podem ser usadas para executar certas operações em strings."
+
+  utter_Comprimento_da_corda:
+    - text: "Para obter o comprimento de uma string, você pode usar a função strlen() \nExemplo: \nchar alphabet [] = \"abcdefghijklmnopqrstuvwxyz\";\"printf(\"%d\", strle(alfabeto));\n\nObserve que o tamanho de Strlen se comporta de maneira diferente do sizeof, pois o tamanho de também inclui o caractere \\0 \nExemplo: \nchar alfabet [] = \"abcdefghijklmnopqrstuvwxyz\";\nprintf(\"%d\", strlen(alfabeto));\n // imprime 26 \nprintf(\"%d\",  sizeof(alfabeto)); // imprime 27 \n\n\nTambém é importante que você saiba que o sizeof sempre retornará o tamanho da memória(em bytes), e não o tamanho real da string \nExemplo: \nchar alfabet[50] = \"abcdefghijklmnopqrstuvwxyz\";\nprintf(\"%d\", strlen(alfabeto)); // imprime 26 \nprintf (\"%d\", sizeof(alfabeto));// imprime 50"
+
+  utter_Cordas_concatenadas:
+    - text: "Para concatenar/combinar duas strings, você pode usar a função strcat() \nExemplo: \nchar str1[20] = \"hello\";\nchar str2[]= \"mundo!\";\n//Concatenar  STR2 a STR1 (resultado é armazenado no STR1)\nSTRCAT(STR1, STR2);\n//Imprima str1\n printf(\"%s\", str1);\n\n\nObserve que o tamanho do STR1 deve ser grande o suficiente para armazenar o resultado das duas strings combinadas (20 no exemplo acima)."
+
+  utter_Copiar_strings:
+    - text: "Para copiar o valor de uma string para outra, você pode usar a função strcpy (): exemplo char str1 [20] = hello world!;CHAR STR2 [20];// copie str1 para str2 strcpy (str2, str1);// print str2 printf (%s, str2);Experimente você mesmo »Observe que o tamanho do STR2 deve ser grandeO suficiente para armazenar a corda copiada (20 em nosso exemplo)."
+
+  utter_Compare_strings:
+    - text: "Para comparar duas strings, você pode usar a função strcmp(). \nchar str2[] = \"Olá\"; \nchar str3[] = oi;\n// Compare Str1 e Str2 e imprima o resultado \nprintf(\"%d\",  strcmp(STR1, STR2));\n// retorna 0 (Pois as strings são iguais) \n//Compare STR1 e STR3 e imprima o resultado \nprintf(\"%d\", strcmp(str1, str3));// retorna -4 (as strings não são igual)"
+
+  utter_Matrizes:
+    - text: "Matrizes são usadas para armazenar vários valores em uma única variável, em vez de declarar variáveis separadas para cada valor. Para criar uma matriz, defina o tipo de dados(como int) e especificar o nome da matriz seguida de colchetes []. Para inserir valores nela, use uma lista separada por vírgula como por exemplo: int mynumbers[] = {{25,  50, 75, 100}}; //Desta forma criamos uma variável que contém uma matriz de quatro números inteiros."
+
+  utter_Acesse_os_elementos_de_uma_matriz:
+    - text: "Para acessar um elemento de vetor/matriz, consulte o número do índice. Os índices de um vetor/matriz começam com 0: [0] é o primeiro elemento, [1] é o segundo elemento e etc. \nExemplo: \nint myNumbers [] = {{25, 50, 75, 100}};\nprintf (\"%d\", mynumbers [0]);// imprime 25"
+
+  utter_Alterar_um_elemento_de_matriz:
+    - text: "Para alterar o valor de um elemento específico, consulte o número do índice. \nExemplo: \nint mynumbers [] = {{25, 50, 75, 100}};\nmyNumbers [0] = 33;\nprintf (%d, mynumbers [0]);// Agora imprime 33 em vez de 25"
+
+  utter_Loop_através_de_uma_matriz:
+    - text: "Você pode percorrer os elementos da matriz com o loop for. \nO exemplo a seguir produz todos os elementos na matriz MyNumbers: \n MyNumbers[] = {{25, 50, 75, 100}};\nint i;for(i = 0; i <4; i ++) {{printf (\"%d\", mynumbers [i]);}}"
+
+  utter_Defina_o_tamanho_da_matriz:
+    - text: "Outra maneira comum de criar matrizes é especificar o tamanho da matriz e adicionarElementos mais tarde. \nExemplo: \n// Declare uma matriz de quatro números inteiros: \nint mynumbers [4];\n// Adicionar  Elementos \nMyNumbers [0] = 25;MyNumbers [1] = 50;MyNumbers [2] = 75;MyNumbers [3] = 100;\n\n\nUsando esse método, você deve saber o número de elementos de matriz com antecedência, para que o programa armazenasse memória suficiente. Você não pode alterar o tamanho da matriz após a criação."
+
+  utter_Funções_predefinidas:
+    - text: "Uma função em C é um bloco de código que executa uma tarefa específica e pode ser chamado de outras partes do programa para realizar essa tarefa sempre que necessário. As funções em C ajudam a organizar o código, facilitando a leitura, manutenção e reutilização."
+
+  utter_Criar_uma_função:
+    - text: "Para declarar sua própria função, especifique o nome da função, seguido por parênteses () e chaves {{}} \nsintaxe: void myfunction(){{// Código a ser executado}} \n\nExplicando o escopo da função myfunction: \nmyfunction() é o nome da função \nvoid significa que a função não tem um valor de retorno."
+
+  utter_Chame_uma_função:
+    - text: "As funções declaradas não são executadas imediatamente. Só serão executadas quando forem chamadas durante o código. E para chamar a função em seu programa, você simplesmente a referencia pelo nome, seguido por parênteses contendo quaisquer argumentos que a função possa precisar."
+
+  utter_Parâmetros_e_argumentos:
+    - text: "As informações podem ser passadas para funções como um parâmetro. Os parâmetros agem como variáveis dentro da função. Os parâmetros são especificados após o nome da função, dentro dos parênteses. Você pode adicionar quantos parâmetros quiser, basta separá-los com uma vírgula \nsintaxe: ReturnType FunctionName (Parameter1, Parameter2, Parameter3){{// Código a ser executado}} \n\nExplicando a função acima: \nReturnType: Este é o tipo de dado que a função retorna após a execução \nFunctionName: Este é o nome da função que você está definindo. Este nome é usado para chamar a função em outras partes do programa. \n(Parameter1, Parameter2, Parameter3): Estes são os parâmetros que a função pode receber quando é chamada. Eles são opcionais e podem ser de diferentes tipos de dados. Eles permitem que você passe informações para a função para que ela possa trabalhar com elas."
+
+  utter_Vários_parâmetros:
+    - text: "Dentro da função, você pode adicionar quantos parâmetros quiser, mas observe que quando você estiver trabalhando com vários parâmetros, a chamada de função deve ter o mesmo número de argumentos que o número de parâmetros e também os argumentos devem ser passados na mesma ordem."
+
+  utter_Passe_as_matrizes_como_parâmetros_de_função:
+    - text: "Você também pode passar as matrizes para uma função. Para passar uma matriz como parâmetro para uma função em C, você pode fazer uso de ponteiros ou notação de array multidimensional."
+
+  utter_Valores_de_retorno:
+    - text: "A palavra void indica que a função não deve retornar um valor. Se você deseja que a função retorne um valor, você pode usar um tipo de dados(como int ou float, etc.) em vez de void e usar a palavra return dentro da função. \nExemplo: \nint myfunction (int x){{return 5 + x;}}\n\nint main(){{printf (\"resultado é: %d\", myfunction(3));\n return 0;}} // imprime: 8(5 + 3)"
+
+  utter_Exemplo_da_vida_real_2:
+    - text: "Para demonstrar um exemplo prático de uso de funções, vamos criar um programa que converte um valor de Fahrenheit em Celsius \nExemplo: \n//Função para converter Fahrenheit para Celsius \nfloat tocelsius(float Fahrenheit){{return (5.0 / 9.0) * (Fahrenheit - 32.0);}}\n\nint main (){{\n// Defina um valor Fahrenheit \nfloat f_value = 98,8;\n// Chame a função com o valor do valor \n resultado = tocelsius(f_value);\n// imprima o valor de Fahrenheit \nprintf (\"Fahrenheit: %.2f \", f_value);\n// imprima o resultado \nprintf(\"Fahrenheit em Celsius: %.2f \", resultado); return  0;}}"
+
+  utter_Como_os_ponteiros_estão_relacionados_a_matrizes:
+    - text: "Você pode acessar vetores/matrizes através de ponteiros. A relação, em c, entre o nome de um vetor/matriz, é que na verdade ele é um ponteiro para o primeiro elemento do vetor. Para grandes matrizes, pode ser muito mais eficiente para acessar e manipular matrizes com ponteiros. Também é considerado mais rápido e mais fácil acessar matrizes bidimensionais com ponteiros.E como as strings são realmente matrizes, você também pode usar ponteiros para acessar strings;"
+
+  utter_Funções_de_matemática:
+    - text: "Há também uma lista de funções matemáticas disponíveis, que permitem executar tarefas matemáticas com números. Para usá -las, você deve incluir o arquivo de cabeçalho math.h em seu programa \n#include <math.h>"
+
+  utter_Raiz_quadrada:
+    - text: "Para encontrar a raiz quadrada de um número, use a função sqrt() \nExemplo: printf(\"%f\", sqrt(16));"
+
+  utter_Em_volta_de_um_número:
+    - text: "A função ceil() serve para arredondar um número para o seu maior número inteiro mais próximo, e o método floor() arredonda um número para o menor número inteiro mais próximo e retorna o resultado \nExemplo: \nprintf(\"%f\", ceil(1.4));\nprintf(\"%f\",  floor(1.4)); \n \\ Este código ira exibir o seguinte: 2, 1"
+
+  utter_Poder:
+    - text: "A função Pow() retorna o valor de x elevado ao valor de y \nExemplo: \nprintf(\"%f\", pow(4, 3));\n \\Imprime: 64"
+
+  utter_Outras_funções_de_matemática:
+    - text: "Uma lista de outras funções matemáticas populares (da biblioteca <math.h> pode ser encontrada abaixo: \nAbs(x) = Retorna o valor absoluto de x \nacos(x) = retorna o arccos de x \n asin(x) = Retorna a arcseno de x \n atan(x) = retorna a arctangent de x \n cbrt(x) = retorna a raiz cúbica de x \ncos(x) = retorna o cosseno de x \nexp(x) = retorna o valor de e elevado a x \nsin(x) = retorna o seno de x (x em radianos) \ntan(x) = retorna a tangente de um ângulo"
+
+  utter_Estruturas:
+    - text: "As structs são uma maneira de agrupar várias variáveis relacionadas em um só lugar. Cada variável na estrutura é conhecido como membro da estrutura. Diferente de vetores/matrizes as structs podem conter diversos tipos de dados ao mesmo tempo(int, float, char, etc.)."
+
+  utter_Criar_uma_estrutura:
+    - text: "Você pode criar uma estrutura usando a palavra struct e declarar cada um de seus membros dentro das chaves \nExemplo: \nstruct MyStructure{{\n// Declaração de estrutura \nint mynum;// variável do tipo int \nchar myletter; // variável do tipo char\n}}; \n\nPara acessar a estrutura, você deve criar uma variável dela dentro do main(), seguido pelo nome da estrutura e, em seguida, o nome da variável da estrutura. \n\nExemplo: \nstruct mystructure{{int mynum; char myletter;}};\n\nint main() {{struct myStructure s1;\nreturn 0;}}"
+
+  utter_Membros_da_estrutura_de_acesso:
+    - text: "Para acessar os membros de uma estrutura, use a sintaxe do ponto(.) \nExemplo: \n// Crie uma estrutura chamada MyStructure \nstruct MyStructure{{int myNum;char myletter;}};\n\nint main(){\n{// Crie uma variável de estrutura da mystrutura chamada S1 \nStruct MyStructure S1;\n// atribui valores aos membros do S1 \nS1.mynum = 13;\ns1.myletter = 'b';\n// Valores de impressão \nprintf(\"mynum: %d \", s1.mynum); printf(\"minha letra: %c \", s1.myletter); return 0;}}"
+
+  utter_Sintaxe_mais_simples:
+    - text: "Você também pode atribuir valores aos membros de uma variável de uma estrutura no momento da declaração, em uma única linha. Apenas insira os valores em uma lista separada por vírgula dentro de chaves ({{}}). Observe que você não tem que usar a função strcpy() para valores de string com isso \nExemplo: \n//Crie uma estrutura \nmyStructure Structure {{int mynum;char myletter;char mystring[30];}};\n\nint main(){{\n// Crie uma variável de estrutura e atribua valores a ela estrutura \n\nmystructure s1 ={{13,'B', \"algum texto\"}};\n// valores de impressão \nprintf(\"%d %c %s\", s1.mynum, s1.myletter, s1.Mystring); \nreturn 0;}} \n\nNota: a ordem dos valores inseridos deve corresponder à ordem dos tipos de variáveis declarados na estrutura (no exemplo acima: 13 para int, 'b' para char, \"algum texto\" para char mystring)."
+
+  utter_Copiar_estruturas:
+    - text: "Você pode atribuir uma estrutura a outra. \nNo exemplo a seguir, os valores de S1 são copiados para S2: \nstruct mystructure s1 = {{13, 'b', \"algum texto}};\nstruct mystructure s2; \ns2 = s1;"
+
+  utter_Modificar_valores:
+    - text: "Se você deseja alterar/modificar um valor, pode usar a sintaxe do ponto(.) e para alterar umas string a função strcpy;"
+
+  utter_Exemplo_da_vida_real_3:
+    - text: "Use uma estrutura para armazenar informações diferentes sobre carros \nExemplo: \nstruct Car{{char Brand[50]; modelo[50];int ano;}};\n\nint main(){{\nstruct car car1 = {{\"bmw\", \"x5\",  1999}};\nstruct Car Car2 = {{\"Ford\", \"Mustang\", 1969}}; \nstruct Car car3 = {{\"Toyota\", \"Corolla\", 2011}};\n printf (\"%s %s %d \",  car1.brand, car1.model, car1.year);\nprintf(\"%s %s %d \", car2.brand,  car2.model, car2. ano);\nprintf(\"%s %s %d\", car3.brand, car3.model, car3 anos);\nreturn 0;}}"
+
+  utter_Recursão:
+    - text: "A recursão em C é uma técnica onde uma função chama a si mesma diretamente ou indiretamente para resolver um problema. Em outras palavras, uma função recursiva é uma função que se auto-invoca para resolver subproblemas do mesmo tipo. \nAqui estão alguns pontos importantes sobre a recursão em C: \nCasos Base: Toda função recursiva deve ter um ou mais casos base, que são as condições de parada da recursão. Esses casos base são essenciais para evitar que a função entre em um loop infinito. \nChamadas Recursivas: Dentro da função, você precisa fazer chamadas recursivas para resolver subproblemas menores. Cada chamada recursiva deve estar progredindo em direção ao(s) caso(s) base. \nPilha de Chamadas: Cada chamada recursiva adiciona uma nova instância da função na pilha de chamadas. Isso significa que, se houver muitas chamadas recursivas aninhadas, você pode esgotar a pilha de chamadas, resultando em um estouro de pilha (stack overflow). \nEficiência: Embora a recursão possa ser uma técnica elegante para resolver certos problemas, ela pode não ser a mais eficiente em termos de uso de memória e tempo de execução. Em alguns casos, loops iterativos podem ser mais eficientes e mais fáceis de entender. \nExemplos Comuns: Algoritmos de busca em árvore (como a busca em profundidade), algoritmos de ordenação (como o merge sort e o quicksort), e algoritmos de combinação (como a geração de permutações) são exemplos comuns de problemas que são bem abordados por recursão."
+
+
+session_config: 
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
