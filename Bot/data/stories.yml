@@ -11,3 +11,31 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+
+- story: exercicio 1
+  steps:
+  - intent: exercicio_1     
+  - action: utter_exercicio_1
+  - intent: exercicio_1_resp
+  - action: utter_exercicio_1_resp
+
+- story: exercicio 2
+  steps:
+  - intent: exercicio_2     
+  - action: utter_exercicio_2
+  - intent: exercicio_2_resp
+  - action: utter_exercicio_2_resp
+
+- story: exercicio 3
+  steps:
+  - intent: exercicio_3     
+  - action: utter_exercicio_3
+  - intent: exercicio_3_resp
+  - action: utter_exercicio_3_resp
+
+- story: exercicio 4
+  steps:
+  - intent: exercicio_4     
+  - action: utter_exercicio_4
+  - intent: exercicio_4_resp
+  - action: utter_exercicio_4_resp

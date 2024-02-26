@@ -95,8 +95,14 @@ intents:
   - Modificar_valores
   - Exemplo_da_vida_real_3
   - Recursão
-  - Exemplo_de_recursão
-
+  - exercicio_1
+  - exercicio_1_resp
+  - exercicio_2
+  - exercicio_2_resp
+  - exercicio_3
+  - exercicio_3_resp
+  - exercicio_4
+  - exercicio_4_resp
 responses:
   utter_greet:
     - text: "Olá! Como posso ajudar?"
@@ -374,6 +380,43 @@ responses:
 
   utter_Recursão:
     - text: "A recursão em C é uma técnica onde uma função chama a si mesma diretamente ou indiretamente para resolver um problema. Em outras palavras, uma função recursiva é uma função que se auto-invoca para resolver subproblemas do mesmo tipo. \nAqui estão alguns pontos importantes sobre a recursão em C: \nCasos Base: Toda função recursiva deve ter um ou mais casos base, que são as condições de parada da recursão. Esses casos base são essenciais para evitar que a função entre em um loop infinito. \nChamadas Recursivas: Dentro da função, você precisa fazer chamadas recursivas para resolver subproblemas menores. Cada chamada recursiva deve estar progredindo em direção ao(s) caso(s) base. \nPilha de Chamadas: Cada chamada recursiva adiciona uma nova instância da função na pilha de chamadas. Isso significa que, se houver muitas chamadas recursivas aninhadas, você pode esgotar a pilha de chamadas, resultando em um estouro de pilha (stack overflow). \nEficiência: Embora a recursão possa ser uma técnica elegante para resolver certos problemas, ela pode não ser a mais eficiente em termos de uso de memória e tempo de execução. Em alguns casos, loops iterativos podem ser mais eficientes e mais fáceis de entender. \nExemplos Comuns: Algoritmos de busca em árvore (como a busca em profundidade), algoritmos de ordenação (como o merge sort e o quicksort), e algoritmos de combinação (como a geração de permutações) são exemplos comuns de problemas que são bem abordados por recursão."
+
+  utter_exercicio_1:
+    - text: "Escolha a opção que completa a linha de código abaixo para declarar uma váriavel do tipo inteiro:\n__ idade = 25;\na)float\nb)int\nc)string\nd)char\n\nPara responder digite a resposta por completo:\n"
+
+  utter_exercicio_1_resp:
+    - text: "A resposta correta é a letra b = int"
+
+  utter_exercicio_2:
+    - text: "Qual é a função dos símbolos // em C?\na) // é usado para indicar o início de um bloco de código.
+    \nb) // é usado para indicar o fim de um bloco de código.
+    \nc) // é usado para comentários de várias linhas.
+    \nd) // é usado para comentários de linha única.
+    \n\nPara responder digite a resposta por completo:\n"
+
+  utter_exercicio_2_resp:
+    - text: "c) // é usado para comentários de linha única."
+
+  utter_exercicio_3:
+    - text: "Qual é a finalidade do if em C?
+    \na) Declarar uma variável.
+    \nb) Definir uma função.
+    \nc) Iniciar um loop.
+    \nd) Controlar o fluxo de execução do programa com base em uma condição.
+    \n\nPara responder digite a resposta por completo:\n"
+  utter_exercicio_3_resp:
+    - text: "d) Controlar o fluxo de execução do programa com base em uma condição."
+
+  utter_exercicio_4:
+    - text: "Para representar strings em C, você pode usar:
+    \na) Arrays de caracteres terminados com o caractere nulo.
+    \nb) O tipo de dado \"string\".
+    \nc) A estrutura de dados \"str\".
+    \nd) Listas encadeadas de caracteres.
+    \n\nPara responder digite a resposta por completo:\n"
+    
+  utter_exercicio_4_resp:
+    - text: "a) Arrays de caracteres terminados com o caractere nulo."
 
 
 session_config: 

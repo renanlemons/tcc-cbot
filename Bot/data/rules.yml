@@ -431,3 +431,43 @@ rules:
   steps:
   - intent: Recursão
   - action: utter_Recursão
+
+- rule: exercicio 1
+  steps:
+  - intent: exercicio_1
+  - action: utter_exercicio_1
+
+- rule: exercicio 1 resp
+  steps:
+  - intent: exercicio_1_resp
+  - action: utter_exercicio_1_resp
+
+- rule: exercicio 2
+  steps:
+  - intent: exercicio_2
+  - action: utter_exercicio_2
+
+- rule: exercicio 2 resp
+  steps:
+  - intent: exercicio_2_resp
+  - action: utter_exercicio_2_resp
+
+- rule: exercicio 3
+  steps:
+  - intent: exercicio_3
+  - action: utter_exercicio_3
+
+- rule: exercicio 3 resp
+  steps:
+  - intent: exercicio_3_resp
+  - action: utter_exercicio_3_resp
+
+- rule: exercicio 4
+  steps:
+  - intent: exercicio_4
+  - action: utter_exercicio_4
+
+- rule: exercicio 4 resp
+  steps:
+  - intent: exercicio_4_resp
+  - action: utter_exercicio_4_resp

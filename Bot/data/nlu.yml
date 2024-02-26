@@ -518,3 +518,51 @@ nlu:
     examples: | 
       - qual o conceito de recursão
       - como funciona a recursão
+
+  - intent: exercicio_1
+    examples: | 
+      - quero um exercicio sobre declaração de variavel
+      - quero treinar a criação de variavel
+
+  - intent: exercicio_1_resp
+    examples: | 
+      - a)float
+      - b)int
+      - c)string
+      - d)char
+
+  - intent: exercicio_2
+    examples: | 
+      - quero um exercicio sobre c
+      - quero treinar conhecimento básico
+
+  - intent: exercicio_2_resp
+    examples: | 
+      - a) // é usado para indicar o início de um bloco de código.
+      - b) // é usado para comentários de várias linhas.
+      - c) // é usado para comentários de linha única.
+      - d) // é usado para indicar o fim de um bloco de código
+
+  - intent: exercicio_3
+    examples: | 
+      - exercicio sobre if
+      - quero treinar conhecimento básico sobre condições
+
+  - intent: exercicio_3_resp
+    examples: | 
+      - a) Declarar uma variável.
+      - b) Definir uma função.
+      - c) Iniciar um loop."
+      - d) Controlar o fluxo de execução do programa com base em uma condição.
+
+  - intent: exercicio_4
+    examples: | 
+      - exercicio sobre string
+      - quero treinar meu conhecimento sobre strings
+
+  - intent: exercicio_4_resp
+    examples: | 
+      - a) Arrays de caracteres terminados com o caractere nulo.
+      - b) O tipo de dado "string".
+      - c) A estrutura de dados "str".
+      - d) Listas encadeadas de caracteres.
